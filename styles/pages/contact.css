@@ -1,0 +1,28 @@
+.ordering {
+    margin-top: 2.69rem;
+}
+
+.contact__info h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 6rem;
+}
+
+.addresses {
+    margin-top: 2.5rem;
+    margin-bottom: 10.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 0.9rem;
+    column-gap: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .addresses {
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+}

@@ -1,0 +1,15 @@
+footer {
+    background-color: var(--black);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 3.5rem;
+    height: 13.5rem;
+    padding: 4.5rem;
+    box-sizing: border-box;
+}
+
+footer a img {
+    width: 2.25rem;
+    height: 2.25rem;
+}

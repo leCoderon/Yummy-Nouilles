@@ -1,0 +1,112 @@
+/* FONTS */
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;600&display=swap');
+/* Bebas Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:ital,wght@0,100..900&display=swap');
+
+/* Module css*/
+@import url('modules/ordering.css');
+@import url('modules/footer.css');
+@import url('modules/btnBrand.css');
+@import url('modules/appBar.css');
+@import url('modules/contactModule.css');
+
+/* Pages css */
+@import url('pages/home.css');
+@import url('pages/menu.css');
+@import url('pages/contact.css');
+
+/* Le Design System est un ensemble de variables, de composants 
+et de concepts qui permettent de maintenir une cohérence visuelle 
+au sein d’un même projet.
+ */
+
+/* ******VARIABLES****** */
+
+:root {
+    /* Colors */
+    --red-highlight: #D2483D;
+    --light-grey: #F3F3F3;
+    --white: #FFF;
+    --black: #000;
+    --black-light: #000000bd;
+
+    /* Text configuration */
+    --body-font: 'Montserrat';
+    --body-highlight-font: 'Montserrat';
+    --header-font: 'Bebas neue';
+    --title-font: 'Bebas neue';
+
+
+    --body-font-size: 1.25rem;
+    --body-highlight-font-size: 1.25rem;
+    --header-font-size: 4.5rem;
+    --title-font-size: 1.5rem;
+
+    --body-font-weight: 400;
+    --body-highlight-font-weight: 600;
+    --header-font-weight: 600;
+    --title-font-weight: 700;
+
+    --body-line-height: 1.5rem;
+    --body-highlight-line-height: 1.5rem;
+    --header-line-height: 5.375rem;
+    --title-line-height: 1.75rem;
+}
+
+/* Stylisez les éléments globaux */
+/* c’est en référence aux balises qui auront toujours le même style
+ quelle que soit la page ou la section dans laquelle elles se trouvent */
+body {
+    scroll-behavior: smooth;
+    background-color: var(--light-grey);
+    font-family: var(--body-font);
+    font-weight: var(--body-font-weight);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    font-style: normal;
+    color: var(--black);
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: var(--header-font);
+    font-weight: var(--header-font-weight);
+    font-size: var(--header-font-size);
+    line-height: var(--header-line-height);
+    font-style: normal;
+    color: var(--black);
+    margin-bottom: 0.9rem;
+}
+
+h2 {
+    font-family: var(--title-font);
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    font-style: normal;
+    color: var(--black);
+
+    text-decoration: underline var(--red-highlight);
+    text-underline-offset: 0.25rem;
+    text-decoration-thickness: 0.188rem;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 768px) {
+    :root {
+        /* Mobile Variables */
+        --body-font-size: 1rem;
+        --body-highlight-font-size: 1rem;
+        --header-font-size: 2.5rem;
+        --title-font-size: 1.25rem;
+
+        --body-line-height: 1.25rem;
+        --body-highlight-line-height: 1.25rem;
+        --header-line-height: 3rem;
+        --title-line-height: 1.5rem;
+    }
+}

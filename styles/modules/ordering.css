@@ -1,0 +1,20 @@
+.ordering {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 13.5rem;
+    width: 100%;
+    background-color: var(--red-highlight);
+    margin-bottom: 2.25rem;
+
+}
+
+.ordering__text {
+    color: var(--white);
+    font-family: var(--body-highlight-font);
+    font-weight: var(--body-highlight-font-weight);
+    font-size: var(--body-highlight-font-size);
+    line-height: var(--body-highlight-line-height);
+    font-style: normal;
+}

@@ -1,0 +1,18 @@
+.btn-brand {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: var(--title-font);
+    font-size: var(--title-font-size);
+    padding: 0.9rem 3rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+@media (max-width: 768px) {
+    .btn-brand {
+        padding: 0.75rem 4.89rem;
+    }
+
+  
+}

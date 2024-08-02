@@ -1,0 +1,25 @@
+.menu{
+    margin: 0 9.44rem;
+}
+.menu p span{
+    color: var(--red-highlight);
+}
+.dishes {
+    background-color: var(--white);
+    text-align: center;
+    padding-top: 4.16rem;
+    padding-bottom: 4.5rem;
+    margin-bottom: 4.5rem;
+    margin-top: 2.25rem;
+}
+
+.dishes__img{
+    width: 8rem;
+    height: 8rem;
+}
+
+@media (max-width: 768px) {
+    .menu{
+        margin: 0 2rem;
+    }
+}
